@@ -1,6 +1,6 @@
 # NESRGB_IGR.ino
 
-A simple program that reads NES controller inputs and either resets the console or changes the NESRGB (clone with two palette pins) video palette. It’s heavily based on SukkoPera's [NESPlusPlus](https://github.com/SukkoPera/NESPlusPlus/tree/master), but with a different method of reading controller inputs, as the original didn’t work for me (possibly due to using a toploader NES console). This version is also much simpler.
+A simple program that reads NES controller inputs and either resets the console or changes the NESRGB (clone with two palette pins) video palette. It’s heavily based on SukkoPera's [NESPlusPlus](https://github.com/SukkoPera/NESPlusPlus/tree/master) and JeffWDH's [NES-In-Game-Reset](https://github.com/JeffWDH/NES-In-Game-Reset), but with a different method of reading controller inputs, as the original didn’t work for me (possibly due to using a toploader NES console). This version is also much simpler.
 
 The program is designed for use with NES toploader consoles modified with the NESRGB mod. The Arduino board used is an Arduino Nano clone.
 
